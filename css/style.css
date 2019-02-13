@@ -25,26 +25,27 @@ h2 {
 nav {
   background: #fffb8e;
   padding: 10px;
-} 
+}
 a {
-  border-bottom:4px solid transparent;
   font-family: 'Coiny', cursive;
   color: #5eb1ff;
   font-size: 20px;
   text-decoration: none;
-  padding: 0 15px;
-
+  padding: 10px;
+  border: 3px solid #5eb1ff;
+  border-radius: 10px;
 }
 a:hover {
-  border-color: #5eb1ff;
+  background-color: #5eb1ff;
+  color: #fffb8e;
 }
 body {
-  background: white;
+  background: #287f32;
   text-align: center;
 }
 p {
   font-family: 'Nunito', sans-serif;
-  color: #287f32;
+  color: white;
   font-size: 25px;
   margin: 20px 0 0 20px;
   width: 600px;
